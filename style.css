@@ -1,0 +1,20 @@
+*{margin:0;box-sizing:border-box}body{background:#111;overflow:hidden;font-family:Arial,sans-serif;color:#fff;user-select:none}
+canvas#c{display:block;cursor:crosshair}
+#hud div,#hud canvas{position:absolute}
+#alive{top:10px;left:10px;background:#000a;padding:6px 12px;border-radius:6px}
+#kills{top:10px;left:120px;background:#000a;padding:6px 12px;border-radius:6px}
+#zoneinfo{top:48px;left:10px;background:#000a;padding:6px 12px;border-radius:6px;font-size:13px}
+#mm{top:10px;right:10px;border:2px solid #fff8;border-radius:8px;background:#000a}
+#feed{top:180px;right:10px;text-align:right;font-size:13px}
+#feed p{background:#000a;margin:3px 0;padding:3px 8px;border-radius:4px}
+#stats{bottom:16px;left:50%;transform:translateX(-50%);width:300px}
+.bar{height:14px;background:#0009;border-radius:7px;margin-bottom:5px;overflow:hidden}
+.bar i{display:block;height:100%;width:100%}#hp{background:#4c4}#ar{background:#49f}
+#wep{text-align:center;background:#000a;padding:5px;border-radius:6px;position:static!important}
+#menu{position:fixed;inset:0;background:#000c;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;text-align:center}
+#menu h1{font-size:64px;letter-spacing:6px;color:#fc3}
+.help{opacity:.7}
+button{padding:14px 48px;font-size:22px;border:0;border-radius:8px;background:#fc3;cursor:pointer;font-weight:bold}
+button:hover{background:#ffd75e}
+#cross{left:50%;top:50%;width:18px;height:18px;margin:-9px 0 0 -9px;border:2px solid #fff;border-radius:50%;opacity:.7}
+#cross:after{content:"";position:absolute;left:6px;top:6px;width:2px;height:2px;background:#f33}
